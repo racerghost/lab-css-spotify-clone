@@ -6,3 +6,185 @@ Green: #00B172
 White: #FFF
 
 */
+html{
+ font-size: 18px; 
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.header{
+  padding:15px;
+  position: fixed;
+  box-sizing:border-box;
+  background-color: white;
+  display:flex;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  overflow: auto;
+}
+.header-logo{
+  height: 50px;
+}
+
+nav{
+  float:right;
+  width: 100%;
+}
+
+.navbar {
+  list-style: none;
+  float:right;
+}
+
+.navbar ul {
+  display: flex;
+  float:right;
+}
+
+.navbar li{
+  display: block;
+  margin: 0 15px;
+}
+
+.main{
+  padding-top: 86px;
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+.main-content{
+  background-image: url("../images/landing.jpg");  
+  background-attachment: fixed;
+  background-position-x:center;
+  background-position-y: -250px;
+  background-size: cover;
+  min-height: 600px;
+
+}
+
+
+h1{
+  text-align: center;
+  color:#fff;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.main-content>h1{
+  padding-top: 150px;
+}
+.main-content>h3{
+  padding-top: 30px;
+}
+h3{
+  text-align: center;
+  color:#fff;
+  font-size: 0.9rem;
+  font-weight:lighter;
+  max-width: 50%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+
+h2{
+  text-align: center;
+  margin: 5% auto;
+  padding:0 0;
+  border-bottom: 3px solid #00B172;
+  max-width: 40%;
+}
+.spoti-options{
+
+  width: 80%;
+  margin: 0 auto 5% auto;
+  left: 0;
+  right: 0;
+  overflow: auto;
+}
+
+.col-33{
+
+  width: 30%;
+  float:left;
+  margin:0 2%;
+}
+
+.mid-col{
+margin:0 0;
+}
+
+.ico{
+  max-width: 25%;
+  margin: 5% auto;
+}
+
+.title{
+  color:#00B172;
+  font-weight:bold;
+  text-align: center;
+  margin: 5% auto;
+}
+
+.content{
+  width: 80%;
+  font-size: 0.8rem;
+  font-weight:lighter;
+  text-align: center;
+  margin: 5% auto;
+}
+
+.green{
+  width: 80%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  background-color: #00B172;
+  overflow: auto;
+  background-image: url("../images/spotify-icon-white.png");  
+  background-position-x:center;
+  background-position-y: center;
+  background-size:75px;
+  background-repeat:no-repeat;
+  margin-bottom: 200px;
+  
+}
+.col-50{
+  width:45%;
+  float:left;
+  padding: 5% 5%;
+}
+
+.title-white{
+  color:#fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-bottom: 3px solid #fff;
+  text-align: justify;
+  margin-bottom: 5%;
+}
+
+h4{
+  color:#fff;
+  padding: 5% 0;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+.col-text{
+  max-width: 70%;
+  color:#fff;
+  font-weight: lighter;
+  font-size: 0.75rem;
+}
+
+.img-app{
+  max-width: 70%;
+ margin-left: 50%;
+
+}
